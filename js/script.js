@@ -1,3 +1,6 @@
+let name = document.getElementById("name").value;
+
 document.getElementById("btn").addEventListener("click", () => {
-    alert("Button Clicked!");
-})
+    alert(`The name is ${name}`);
+});
+
