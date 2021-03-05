@@ -1,6 +1,6 @@
-let name = document.getElementById("name").value;
+let fullName = document.getElementById("name").value;
 
 document.getElementById("btn").addEventListener("click", () => {
-    alert(`The name is ${name}`);
+    alert(`The name is ${fullName}`);
 });
 
